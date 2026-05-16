@@ -22,7 +22,11 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 * **The Impact:** Uncovered critical operational trends, highlighting a potential **15% recovery in lost revenue** and resource optimization by adjusting scheduling intervals for high-risk demographics.
 * **Tech Stack:** `Excel` | `Power BI` | `Data Modeling` | `DAX`
 
-👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis) | [View live dashboard](HealthPulse-Data-Analysis.pbix)**
+<p align="center">
+  <img src="HealthPulse Patient Appointment & No-Show Analysis.png" width="80%">
+</p>
+
+👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **[View live dashboard](HealthPulse-Data-Analysis.pbix)**
 
 ---
 
@@ -34,7 +38,11 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 * **The Impact:** Pinpointed the highest-performing film genres and regional customer hubs, providing a structured framework for data-driven inventory management and targeted marketing campaigns.
 * **Tech Stack:** `SQL` | `Data Aggregation` | `Business Intelligence` | `Data Visualisation`
 
-👉 **[View Project Repository](https://github.com/Olumola-6/Portfolio) | [View SQL Queries](_link_here_)**
+<p align="center">
+  <img src="Sakila Rental Analysis.png" width="80%" alt="Sakila Project Preview">
+</p>
+
+👉 **[View Project Repository](https://github.com/Olumola-6/Sakila-DVD-Rental-Business-Analysis)**
 
 ---
 
@@ -46,6 +54,10 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 * **The Impact:** Created a streamlined, continuous dataset that isolates cross-year performance metrics, enabling stakeholders to instantly identify which regional healthcare strategies yield the highest impact per dollar spent.
 * **Tech Stack:** `Data Transformation (Long/Panel)` | `Power BI` | `Excel` | `Global Health Analytics`
 
-👉 **[View Project Repository](https://github.com/Olumola-6/Portfolio) | [View Interactive Dashboard](_link_here_)**
+<p align="center">
+  <img src="World Health ROI analysis.png" width="80%">
+</p>
+
+👉 **[View Project Repository](https://github.com/Olumola-6/Global-Health-Efficiency-Analysis)** | **[View Interactive Dashboard](WORLD-HEALTH-EFFICIENCY-ANALYSIS.pbix)**
 
 ---
