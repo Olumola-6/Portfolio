@@ -26,7 +26,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
   <img src="HealthPulse Patient Appointment & No-Show Analysis.png" width="80%">
 </p>
 
-👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **[View live dashboard](HealthPulse-Data-Analysis.pbix)**
+👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **![Dashboard Preview](HealthPulse-Patient-Appointment-Analytics.png)**
 
 ---
 
@@ -42,7 +42,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
   <img src="Sakila Rental Analysis.png" width="80%" alt="Sakila Project Preview">
 </p>
 
-👉 **[View Project Repository](https://github.com/Olumola-6/Sakila-DVD-Rental-Business-Analysis)**
+👉 **[View Project Repository](https://github.com/Olumola-6/Sakila-DVD-Rental-Business-Analysis)** | **![Dashboard Preview](Sakila-Rental-Analysis.png)**
 
 ---
 
@@ -58,6 +58,6 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
   <img src="World Health ROI analysis.png" width="80%">
 </p>
 
-👉 **[View Project Repository](https://github.com/Olumola-6/Global-Health-Efficiency-Analysis)** | **[View Interactive Dashboard](WORLD-HEALTH-EFFICIENCY-ANALYSIS.pbix)**
+👉 **[View Project Repository](https://github.com/Olumola-6/Global-Health-Efficiency-Analysis)** | **![Dashboard Preview](World-Health-ROI-analysis.png)**
 
 ---
