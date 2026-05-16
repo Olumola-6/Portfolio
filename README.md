@@ -22,6 +22,8 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 * **The Impact:** Uncovered critical operational trends, highlighting a potential **15% recovery in lost revenue** and resource optimization by adjusting scheduling intervals for high-risk demographics.
 * **Tech Stack:** `Excel` | `Power BI` | `Data Modeling` | `DAX`
 
+
+
 <p align="center">
   <img src="HealthPulse Patient Appointment & No-Show Analysis.png" width="80%">
 </p>
@@ -38,6 +40,8 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 * **The Impact:** Pinpointed the highest-performing film genres and regional customer hubs, providing a structured framework for data-driven inventory management and targeted marketing campaigns.
 * **Tech Stack:** `SQL` | `Data Aggregation` | `Business Intelligence` | `Data Visualisation`
 
+
+
 <p align="center">
   <img src="Sakila Rental Analysis.png" width="80%" alt="Sakila Project Preview">
 </p>
@@ -53,6 +57,9 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 * **The Solution:** Restructured fragmented data from a rigid "Wide" format into a clean, normalized **"Long" Panel Data structure** (Country, Year, Expense, Life Expectancy). Built a dynamic global dashboard to track spending efficiency over time.
 * **The Impact:** Created a streamlined, continuous dataset that isolates cross-year performance metrics, enabling stakeholders to instantly identify which regional healthcare strategies yield the highest impact per dollar spent.
 * **Tech Stack:** `Data Transformation (Long/Panel)` | `Power BI` | `Excel` | `Global Health Analytics`
+
+
+
 
 <p align="center">
   <img src="World Health ROI analysis.png" width="80%">
