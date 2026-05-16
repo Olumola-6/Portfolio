@@ -76,7 +76,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 *I am always open to discussing data analytics opportunities, project collaborations, or sharing insights on data-driven decision-making. Let's connect!*
 
 <p align="left">
-  <a href="www.linkedin.com/in/adebayo-michael-analyst" target="_blank">
+  <a href="https://www.linkedin.com/in/adebayo-michael-analyst" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://github.com/Olumola-6" target="_blank">
