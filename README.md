@@ -4,7 +4,7 @@ Hello! I'm Adebayo Michael 😃, a data analyst, health analyst with a passion f
 
 ## WHAT I DO
 
-**- ✅ Data Analytics Consulting.**
+**Data Analytics Consulting.**
 Turning complexity into clarity. I specialize in developing end-to-end data pipelines, from rigorous data cleaning to high-impact visualization, that empower organizations to move with confidence..
 
 ##  🚀 MY PROJECTS
@@ -26,7 +26,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
   <img src="HealthPulse Patient Appointment & No-Show Analysis.png" width="80%">
 </p>
 
-👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **![Dashboard Preview](HealthPulse-Patient-Appointment-Analytics.png)**
+👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **[Dashboard Preview](HealthPulse-Patient-Appointment-Analytics.png)**
 
 ---
 
@@ -42,7 +42,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
   <img src="Sakila Rental Analysis.png" width="80%" alt="Sakila Project Preview">
 </p>
 
-👉 **[View Project Repository](https://github.com/Olumola-6/Sakila-DVD-Rental-Business-Analysis)** | **![Dashboard Preview](Sakila-Rental-Analysis.png)**
+👉 **[View Project Repository](https://github.com/Olumola-6/Sakila-DVD-Rental-Business-Analysis)** | **[Dashboard Preview](Sakila-Rental-Analysis.png)**
 
 ---
 
@@ -58,6 +58,6 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
   <img src="World Health ROI analysis.png" width="80%">
 </p>
 
-👉 **[View Project Repository](https://github.com/Olumola-6/Global-Health-Efficiency-Analysis)** | **![Dashboard Preview](World-Health-ROI-analysis.png)**
+👉 **[View Project Repository](https://github.com/Olumola-6/Global-Health-Efficiency-Analysis)** | **[Dashboard Preview](World Health ROI analysis.png)**
 
 ---
