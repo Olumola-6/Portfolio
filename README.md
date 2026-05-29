@@ -1,11 +1,11 @@
 ## ABOUT ME
 
-Hello! I'm Adebayo Michael 😃, a data analyst, health analyst with a passion for turning data into actionable insights, I transform fragmented data into strategic roadmaps. With a background in health and operations, I specialize in building quiet, automated systems that drive growth while maintaining data integrity.
+I'm Adebayo Michael. I started in health operations, Where data is never clean. Now i write SQL, build Power BI dashboards, and unpivot messy Excel exports until they answer one question: What should we actually do differently? Currently learning Python to do more of that, faster.
+
 
 ## WHAT I DO
 
-**Data Analytics Consulting.**
-Turning complexity into clarity. I specialize in developing end-to-end data pipelines, from rigorous data cleaning to high-impact visualization, that empower organizations to move with confidence..
+I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into something a manager can actually use to make a decision, usually a dashboard or a one-page report.
 
 ##  🚀 MY PROJECTS
 
@@ -15,11 +15,14 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 ---
 
 ### 🏥 1. HealthPulse: Patient Appointment & Operational Analytics
-**An end-to-end healthcare analytics solution tracking patient dynamics, clinic utilization, and operational efficiencies.**
+**Reducing no-shows at a busy clinic: how I found a 15% revenue leak in appointment data.**
 
-* **The Challenge:** Healthcare facilities face resource strain and lost revenue due to volatile patient appointment patterns, high no-show rates, and unoptimized scheduling pipelines.
-* **The Solution:** Developed a robust data pipeline to clean and aggregate complex healthcare datasets. Designed an interactive **Power BI Dashboard** that tracks appointment metrics, demographic bottlenecks, and seasonal operational peaks.
-* **The Impact:** Uncovered critical operational trends, highlighting a potential **15% recovery in lost revenue** and resource optimization by adjusting scheduling intervals for high-risk demographics.
+* **The Challenge:** A clinic had no way to predict which patients would skip appointments. I was given 4 years of raw appointment logs with messy date formats, missing zip codes, and no clear “no-show” flag.
+
+* **what i did:** Cleaned the data in Power Query, created a no-show flag by comparing appointment vs. check-in timestamps, then built a dashboard showing no-show rates by doctor, clinic and appointment time, and day of week..
+
+* **The Impact:** Showed that a certain doctor, appointment date and clinic locations were linked to high no-show rates for appointments. The clinic adjusted scheduling intervals for doctors and added a text reminder for weekend apointments. Estimated 15% revenue recovery.
+
 * **Tech Stack:** `Excel` | `Power BI` | `Data Modeling` | `DAX`
 
 
@@ -29,16 +32,19 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 </p>
 
 👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **[Dashboard Preview](HealthPulse Patient Appointment & No-Show Analysis.png)**
-
 ---
 
-### 🎬 2. Sakila Entertainment: Video Rental Business Intelligence
-**A comprehensive database analysis and commercial intelligence project tracking customer lifetime value and asset performance.**
+### 🎬 2. Sakila Entertainment: Video Rental Business Intelligencew
+**Joining 5 tables across 15,000+ rental records: Finding top revenue generators and which film categories lose money from late returns .**
 
-* **The Challenge:** Maximizing profitability in a traditional rental business requires a deep understanding of inventory turnover, peak transactional windows, and regional customer behavior.
-* **The Solution:** Wrote complex, optimized **SQL queries (Joins, CTEs, and Window Functions)** to extract and aggregate operational data from the Sakila database. Transformed the raw tabular results into sharp, high-fidelity business intelligence visuals.
-* **The Impact:** Pinpointed the highest-performing film genres and regional customer hubs, providing a structured framework for data-driven inventory management and targeted marketing campaigns.
-* **Tech Stack:** `SQL` | `Data Aggregation` | `Business Intelligence` | `Data Visualisation`
+* **What I actually did:** Wrote 3 SQL queries joining payment → rental → inventory → film → category tables. Used `DATEDIFF` and `CASE` WHEN to flag late returns (comparing actual vs allowed rental duration). Built a Power BI dashboard showing: (1) Sports & Sci-Fi drive revenue, (2) Action films have highest late rates, (3) top 10 countries by customer spend.
+
+*Results** Recommended shorter rental periods for high-demand categories to free up inventory. Top revenue countries include some without physical stores, targeted marketing could acquire more customers without new locations.
+
+* **Tech Stack:** `SQL` | `Power BI` | `Business Intelligence`
+
+* **what i'd add next time**
+  Instead of excluding `NULL return_date` entirely, i'd keep them as "not yet returned" and create a third category: **Outstanding rentals**. This would show real-time inventory pressure, not just historial late patterns.
 
 
 
@@ -51,13 +57,15 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 ---
 
 ### 🌍 3. World Health Efficiency & ROI Analysis
-**A macro-level global health data transformation project analyzing healthcare spending against life expectancy outcomes.**
+**Unpivoting 9 years of WHO data to find countries that gets the most life expectancy per dollar.**
 
-* **The Challenge:** Disconnected, wide-format global health records make it difficult for policymakers to measure the true return on investment (ROI) of healthcare spending across different economic tiers.
-* **The Solution:** Restructured fragmented data from a rigid "Wide" format into a clean, normalized **"Long" Panel Data structure** (Country, Year, Expense, Life Expectancy). Built a dynamic global dashboard to track spending efficiency over time.
-* **The Impact:** Created a streamlined, continuous dataset that isolates cross-year performance metrics, enabling stakeholders to instantly identify which regional healthcare strategies yield the highest impact per dollar spent.
-* **Tech Stack:** `Data Transformation (Long/Panel)` | `Power BI` | `Excel` | `Global Health Analytics`
+* **What i did:** Original data was wide (years as columns). Used Power Query to unpivot into panel format (Country, Year, Life Expectancy, Health Spend). Created DAX measure: Efficiency = (Life Expectancy / Spend) * 1000. Built scatter plot with year play axis.
+* **The Solution:** Found diminishing returns after ~$3k/capita. Somalia & Madagascar are "efficiency leaders" (high outcomes at low spend) and stayed consistent compared to Efficiency losers (USA and Liechtenstein).
 
+* **Tech Stack:** `Power Query` | `Power BI` | `Excel` | `DAX`
+
+* **what i'd add next time**
+  Add inflation adjustments to health expenditure (2015 dollars vs 2023 dollars aren't comparable). Also pull GDP per capita as a third variable to seperate "Wealth Effect" from "Policy Effect".
 
 
 
@@ -73,7 +81,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 
 ## 🤝 CONNECT WITH ME
 
-*I am always open to discussing data analytics opportunities, project collaborations, or sharing insights on data-driven decision-making. Let's connect!*
+*Open for data analytics roles, project collaborations, or just talking about messy data problems. Find me here*
 
 <p align="left">
   <a href="https://www.linkedin.com/in/adebayo-michael-analyst" target="_blank">
@@ -88,7 +96,7 @@ Turning complexity into clarity. I specialize in developing end-to-end data pipe
 </p>
 
 
-### 🎯 Current Focus
-* 📊 Advancing business intelligence frameworks using SQL, Power BI, and Python pipelines.
-* 📈 Designing structured, optimized backend processes and automated analytics dashboards.
-* 🎓 Deepening macro-level analytics structures for high-impact decision reporting.
+### 🎯 Currently focused on:
+* 📊 Learning Python (Pandas + matplotlib) to move beyond SQL/Excel.
+* 📈 Adding one real-world dataset per week to my portfolio. Not tutorial data.
+* 🎓 Practicing explaining technical decisions in plain English (harder than SQL).
