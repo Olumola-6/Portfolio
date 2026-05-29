@@ -39,7 +39,7 @@ I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into so
 
 * **What I actually did:** Wrote 3 SQL queries joining payment → rental → inventory → film → category tables. Used `DATEDIFF` and `CASE` WHEN to flag late returns (comparing actual vs allowed rental duration). Built a Power BI dashboard showing: (1) Sports & Sci-Fi drive revenue, (2) Action films have highest late rates, (3) top 10 countries by customer spend.
 
-*Results** Recommended shorter rental periods for high-demand categories to free up inventory. Top revenue countries include some without physical stores, targeted marketing could acquire more customers without new locations.
+* **Results** Recommended shorter rental periods for high-demand categories to free up inventory. Top revenue countries include some without physical stores, targeted marketing could acquire more customers without new locations.
 
 * **Tech Stack:** `SQL` | `Power BI` | `Business Intelligence`
 
@@ -60,7 +60,7 @@ I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into so
 **Unpivoting 9 years of WHO data to find countries that gets the most life expectancy per dollar.**
 
 * **What i did:** Original data was wide (years as columns). Used Power Query to unpivot into panel format (Country, Year, Life Expectancy, Health Spend). Created DAX measure: Efficiency = (Life Expectancy / Spend) * 1000. Built scatter plot with year play axis.
-* **The Solution:** Found diminishing returns after ~$3k/capita. Somalia & Madagascar are "efficiency leaders" (high outcomes at low spend) and stayed consistent compared to Efficiency losers (USA and Liechtenstein).
+* **The Results:** Found diminishing returns after ~$3k/capita. Somalia & Madagascar are "efficiency leaders" (high outcomes at low spend) and stayed consistent compared to Efficiency losers (USA and Liechtenstein).
 
 * **Tech Stack:** `Power Query` | `Power BI` | `Excel` | `DAX`
 
@@ -100,3 +100,7 @@ I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into so
 * 📊 Learning Python (Pandas + matplotlib) to move beyond SQL/Excel.
 * 📈 Adding one real-world dataset per week to my portfolio. Not tutorial data.
 * 🎓 Practicing explaining technical decisions in plain English (harder than SQL).
+
+
+## WHAT I'M LOOKING FOR?
+ **Looking for:** Junior data analyst or BI aanalyst roles where i can work with real messy data, not just cleaned datasets. Open to health, operations or retail domains.
