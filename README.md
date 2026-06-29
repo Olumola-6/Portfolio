@@ -14,7 +14,32 @@ I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into so
 
 ---
 
-### 🏥 1. HealthPulse: Patient Appointment & Operational Analytics
+
+
+### 1. Clinical Survival Predictor: Tumor Analysis & Patient Outcome Prediction
+Using Python to predict patient outcomes from tumor data with 87.7% accuracy.
+
+* **The Challenge:** A clinic needed a way to screen tumor cases and predict whether a tumor was malignant or benign based on physical traits. The goal was to build an interpretable model that doctors could trust.
+
+* **What I Did:** Cleaned the clinical data using Pandas, checked for missing values, and grouped patients by outcome to compare physical traits (radius, perimeter, texture). Ran a correlation analysis to find which features mattered most. Then trained a Logistic Regression model, standardized the features, and tested it on 114 unseen cases.
+
+* **The Results:** The model achieved 87.7% accuracy. It correctly identified 38 malignant cases and 62 benign cases. Only missed 4 serious cases out of 114 — critical in healthcare, where missing a malignant case is the most dangerous error.
+
+* **Tech Stack:** Python | Pandas | Matplotlib | Seaborn
+
+* **What I'd Add Next:** Experiment with other classifiers like Random Forest or XGBoost to see if accuracy can be pushed above 90%. Also add SHAP explanations to show exactly which tumor traits drive each prediction.
+
+<p align="center">
+  <img src="Heatmap chart.png" width="80%">
+</p>
+
+
+**[View Project Repository](https://github.com/Olumola-6/Clinical_Survival_Predictor)** | **[Heatmap Preview](Heatmap chart.png)**
+
+
+
+
+### 🏥 2. HealthPulse: Patient Appointment & Operational Analytics
 **Reducing no-shows at a busy clinic: how I found a 15% revenue leak in appointment data.**
 
 * **The Challenge:** A clinic had no way to predict which patients would skip appointments. I was given 4 years of raw appointment logs with messy date formats, missing zip codes, and no clear “no-show” flag.
@@ -34,7 +59,7 @@ I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into so
 👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **[Dashboard Preview](HealthPulse Patient Appointment & No-Show Analysis.png)**
 ---
 
-### 🎬 2. Sakila Entertainment: Video Rental Business Intelligencew
+### 🎬 3. Sakila Entertainment: Video Rental Business Intelligencew
 **Joining 5 tables across 15,000+ rental records: Finding top revenue generators and which film categories lose money from late returns .**
 
 * **What I actually did:** Wrote 3 SQL queries joining payment → rental → inventory → film → category tables. Used `DATEDIFF` and `CASE` WHEN to flag late returns (comparing actual vs allowed rental duration). Built a Power BI dashboard showing: (1) Sports & Sci-Fi drive revenue, (2) Action films have highest late rates, (3) top 10 countries by customer spend.
@@ -56,7 +81,7 @@ I take raw, messy data (Excel exports, SQL dumps, CSV chaos) and turn it into so
 
 ---
 
-### 🌍 3. World Health Efficiency & ROI Analysis
+### 🌍 4. World Health Efficiency & ROI Analysis
 **Unpivoting 9 years of WHO data to find countries that gets the most life expectancy per dollar.**
 
 * **What i did:** Original data was wide (years as columns). Used Power Query to unpivot into panel format (Country, Year, Life Expectancy, Health Spend). Created DAX measure: Efficiency = (Life Expectancy / Spend) * 1000. Built scatter plot with year play axis.
