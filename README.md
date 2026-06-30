@@ -34,7 +34,7 @@ Using Python to predict patient outcomes from tumor data with 87.7% accuracy.
 </p>
 
 
-**[View Project Repository](https://github.com/Olumola-6/Clinical_Survival_Predictor)** | **[Heatmap Preview](Heatmap chart.png)**
+**[View Project Repository](https://github.com/Olumola-6/Clinical_Survival_Predictor)** 
 
 
 
@@ -70,18 +70,27 @@ Low Risk    = 0-1 injuries and no recent moderate/severe cases
 - DAX measures for costs, recovery averages, and injury counts
 - Power Query for cleaning and date standardization
 
+
+<p align="center">
+  <img src="AthleteX Dashboard.png" width="80%">
+</p>
+
+**[View Repository](https://github.com/Olumola-6/athletex-care-sports-injury-analytics)** | **[Dashboard Preview]**
+
 **One thing that surprised me:**
 
 Athlete 10 popped up as High Risk based on historical logs alone. The medical team confirmed they were already considering extended rehab for him. The dashboard caught it before they even flagged it themselves.
 
----
 
 **Tech:** Power BI | DAX | Power Query | Star Schema
 
-**[View Repository](https://github.com/Olumola-6/athletex-care-sports-injury-analytics)** | **[Dashboard Preview](AthleteX Dashboard.png)**
+
 
 **What I'd add next:** Live data feed, Python injury prediction model
 
+
+
+---
 
 
 
