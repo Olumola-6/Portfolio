@@ -38,8 +38,54 @@ Using Python to predict patient outcomes from tumor data with 87.7% accuracy.
 
 
 
+* * *
 
-### 🏥 2. HealthPulse: Patient Appointment & Operational Analytics
+### 2. AthleteX Care: Sports Medicine Analytics
+Power BI dashboard for tracking injuries, treatment costs, and athlete risk levels
+
+---
+
+What I actually did:
+Built a dashboard that turns messy injury logs into something a coach or medical director can actually use. No more digging through spreadsheets to figure out who's hurt, how much it's costing, or when they're coming back.
+
+What it does:
+
+| | |
+|---|---|
+| Tracks costs | Tennis and Football account for 65% of total medical spend → targeted physiotherapy needed |
+| Flags risks | Athletes with 3+ injuries or recent severe injuries get High Risk tags → extended rehab before clearance |
+| Shows patterns | Injury spikes during mid-season competitive phases → coaching staff can rotate players |
+
+**How the risk logic works:**
+
+High Risk   = 3+ past injuries OR any severe injury in last 12 months
+
+Medium Risk = 2 past injuries OR moderate injury in last 6 months
+
+Low Risk    = 0-1 injuries and no recent moderate/severe cases
+
+**The data model:**
+
+- Star Schema with `Dim_Athletes` and `Fact_InjuryLogs` (joined on AthleteID)
+- DAX measures for costs, recovery averages, and injury counts
+- Power Query for cleaning and date standardization
+
+**One thing that surprised me:**
+
+Athlete 10 popped up as High Risk based on historical logs alone. The medical team confirmed they were already considering extended rehab for him. The dashboard caught it before they even flagged it themselves.
+
+---
+
+**Tech:** Power BI | DAX | Power Query | Star Schema
+
+**[View Repository](https://github.com/Olumola-6/athletex-care-sports-injury-analytics)** | **[Dashboard Preview](AthleteX_Dashboard.png)**
+
+**What I'd add next:** Live data feed, Python injury prediction model
+
+
+
+
+### 🏥 3. HealthPulse: Patient Appointment & Operational Analytics
 **Reducing no-shows at a busy clinic: how I found a 15% revenue leak in appointment data.**
 
 * **The Challenge:** A clinic had no way to predict which patients would skip appointments. I was given 4 years of raw appointment logs with messy date formats, missing zip codes, and no clear “no-show” flag.
@@ -59,7 +105,7 @@ Using Python to predict patient outcomes from tumor data with 87.7% accuracy.
 👉 **[View Project Repository](https://github.com/Olumola-6/HealthPulse-Data-Analysis)** | **[Dashboard Preview](HealthPulse Patient Appointment & No-Show Analysis.png)**
 ---
 
-### 🎬 3. Sakila Entertainment: Video Rental Business Intelligencew
+### 🎬 4. Sakila Entertainment: Video Rental Business Intelligencew
 **Joining 5 tables across 15,000+ rental records: Finding top revenue generators and which film categories lose money from late returns .**
 
 * **What I actually did:** Wrote 3 SQL queries joining payment → rental → inventory → film → category tables. Used `DATEDIFF` and `CASE` WHEN to flag late returns (comparing actual vs allowed rental duration). Built a Power BI dashboard showing: (1) Sports & Sci-Fi drive revenue, (2) Action films have highest late rates, (3) top 10 countries by customer spend.
@@ -81,7 +127,7 @@ Using Python to predict patient outcomes from tumor data with 87.7% accuracy.
 
 ---
 
-### 🌍 4. World Health Efficiency & ROI Analysis
+### 🌍 5. World Health Efficiency & ROI Analysis
 **Unpivoting 9 years of WHO data to find countries that gets the most life expectancy per dollar.**
 
 * **What i did:** Original data was wide (years as columns). Used Power Query to unpivot into panel format (Country, Year, Life Expectancy, Health Spend). Created DAX measure: Efficiency = (Life Expectancy / Spend) * 1000. Built scatter plot with year play axis.
