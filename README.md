@@ -78,7 +78,7 @@ Athlete 10 popped up as High Risk based on historical logs alone. The medical te
 
 **Tech:** Power BI | DAX | Power Query | Star Schema
 
-**[View Repository](https://github.com/Olumola-6/athletex-care-sports-injury-analytics)** | **[Dashboard Preview](AthleteX_Dashboard.png)**
+**[View Repository](https://github.com/Olumola-6/athletex-care-sports-injury-analytics)** | **[Dashboard Preview](AthleteX Dashboard.png)**
 
 **What I'd add next:** Live data feed, Python injury prediction model
 
