@@ -23,7 +23,7 @@ Using Python to predict patient outcomes from tumor data with 87.7% accuracy.
 
 * **What I Did:** Cleaned the clinical data using Pandas, checked for missing values, and grouped patients by outcome to compare physical traits (radius, perimeter, texture). Ran a correlation analysis to find which features mattered most. Then trained a Logistic Regression model, standardized the features, and tested it on 114 unseen cases.
 
-* **The Results:** The model achieved 87.7% accuracy. It correctly identified 38 malignant cases and 62 benign cases. Only missed 4 serious cases out of 114 — critical in healthcare, where missing a malignant case is the most dangerous error.
+* **The Results:** The model achieved 87.7% accuracy. It correctly identified 38 malignant cases and 62 benign cases. Only missed 4 serious cases out of 114, critical in healthcare, where missing a malignant case is the most dangerous error.
 
 * **Tech Stack:** Python | Pandas | Matplotlib | Seaborn
 
