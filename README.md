@@ -64,11 +64,11 @@ Medium Risk = 2 past injuries OR moderate injury in last 6 months
 
 Low Risk    = 0-1 injuries and no recent moderate/severe cases
 
-**The data model:**
+**The full pipeline:**
 
-- Star Schema with `Dim_Athletes` and `Fact_InjuryLogs` (joined on AthleteID)
-- DAX measures for costs, recovery averages, and injury counts
-- Power Query for cleaning and date standardization
+- Stage 1: MySQL for data staging, table design, and cleaning
+- Stage 2: Power Query for ETL and transformation
+- Stage 3: Power BI + DAX for modeling and visualization
 
 
 <p align="center">
